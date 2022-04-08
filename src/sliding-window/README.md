@@ -4,4 +4,8 @@
 
 ## Examples
 
+- Average of Subarrays: [Solution](/src/sliding-window/average-of-subarrays.ts) => [Problem Link](https://leetcode.com/problems/maximum-average-subarray-i/)
+
 ## Useful Snipets
+
+- `windowEnd - windowStart + 1` is the size of window
