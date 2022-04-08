@@ -8,6 +8,7 @@
 - Average of Subarrays: [Solution](/src/sliding-window/average-of-subarrays.ts) => [Problem Link](https://leetcode.com/problems/maximum-average-subarray-i/)
 - Minimum Size Subarray Sum: [Solution](/src/sliding-window/smallest-subarray-sum.ts) => [Problem Link](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - Longest Substring with maximum K Distinct Characters: [Solution](/src/sliding-window/longest-substring-with-k-distinct-chars.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/YQQwQMWLx80)
+- Fruits into baskets: [Solution](/src/sliding-window/fruit-baskets.ts) => [Problem Link](https://leetcode.com/problems/fruit-into-baskets/)
 
 ## Useful Snipets and tricks
 
