@@ -1,0 +1,19 @@
+{
+  "name": "algo-coding-patterns",
+  "version": "1.0.0",
+  "description": "patterns for coding questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anujparikh/algo-coding-patterns.git"
+  },
+  "author": "Anuj Parikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anujparikh/algo-coding-patterns/issues"
+  },
+  "homepage": "https://github.com/anujparikh/algo-coding-patterns#readme"
+}
