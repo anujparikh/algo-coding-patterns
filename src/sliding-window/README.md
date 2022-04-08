@@ -5,7 +5,8 @@
 ## Examples
 
 - Average of Subarrays: [Solution](/src/sliding-window/average-of-subarrays.ts) => [Problem Link](https://leetcode.com/problems/maximum-average-subarray-i/)
-- Max Sum Subarray of length k: [Solution](/src/sliding-window/max-sum-subarray.ts) => [Problem Link](https://leetcode.com/problems/maximum-average-subarray-i/)
+- Average of Subarrays: [Solution](/src/sliding-window/average-of-subarrays.ts) => [Problem Link](https://leetcode.com/problems/maximum-average-subarray-i/)
+- Minimum Size Subarray Sum: [Solution](/src/sliding-window/smallest-subarray-sum.ts) => [Problem Link](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 ## Useful Snipets
 
