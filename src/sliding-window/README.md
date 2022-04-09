@@ -16,9 +16,11 @@
 - String Anagrams: [Solution](/src/sliding-window/string-anagram.ts) => [Problem Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 - Minimum Window Substring: [Solution](/src/sliding-window/smallest-window-substring.ts) => [Problem Link](https://leetcode.com/problems/minimum-window-substring/)
 - Substring with Concatenation of All Words: [Solution](/src/sliding-window/words-concatenation.ts) => [Problem Link](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) (not fully solved)
+- Best Time to Buy and Sell Stock: [Solution](/src/sliding-window/max-profit.ts) => [Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ## Blind75 questions
 
+- Best Time to Buy and Sell Stock: [Solution](/src/sliding-window/max-profit.ts) => [Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - Longest Substring Without Repeating Characters: [Solution](/src/sliding-window/longest-non-repeating-substring.ts) => [Problem Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - Longest Repeating Character Replacement: [Solution](/src/sliding-window/longest-repeating-substring-replacment.ts) => [Problem Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - Minimum Window Substring: [Solution](/src/sliding-window/smallest-window-substring.ts) => [Problem Link](https://leetcode.com/problems/minimum-window-substring/)
