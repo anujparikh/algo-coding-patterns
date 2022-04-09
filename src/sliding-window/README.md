@@ -12,6 +12,7 @@
 - Longest Substring Without Repeating Characters: [Solution](/src/sliding-window/longest-non-repeating-substring.ts) => [Problem Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - Longest Repeating Character Replacement: [Solution](/src/sliding-window/longest-repeating-substring-replacment.ts) => [Problem Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - Max Consecutive Ones III: [Solution](/src/sliding-window/longest-subarray-after-replacement.ts) => [Problem Link](https://leetcode.com/problems/max-consecutive-ones-iii/)
+- Permutation in String: [Solution](/src/sliding-window/permutation-string.ts) => [Problem Link](https://leetcode.com/problems/permutation-in-string/)
 
 ## Blind75 questions
 
@@ -43,3 +44,5 @@
     windowEnd++;
   }
   ```
+
+- when working with pattern matching the window size should be less than pattern length at the end in windowEnd loop
