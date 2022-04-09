@@ -14,11 +14,13 @@
 - Max Consecutive Ones III: [Solution](/src/sliding-window/longest-subarray-after-replacement.ts) => [Problem Link](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - Permutation in String: [Solution](/src/sliding-window/permutation-string.ts) => [Problem Link](https://leetcode.com/problems/permutation-in-string/)
 - String Anagrams: [Solution](/src/sliding-window/string-anagram.ts) => [Problem Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+- Minimum Window Substring: [Solution](/src/sliding-window/smallest-window-substring.ts) => [Problem Link](https://leetcode.com/problems/minimum-window-substring/)
 
 ## Blind75 questions
 
 - Longest Substring Without Repeating Characters: [Solution](/src/sliding-window/longest-non-repeating-substring.ts) => [Problem Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - Longest Repeating Character Replacement: [Solution](/src/sliding-window/longest-repeating-substring-replacment.ts) => [Problem Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- Minimum Window Substring: [Solution](/src/sliding-window/smallest-window-substring.ts) => [Problem Link](https://leetcode.com/problems/minimum-window-substring/)
 
 ## Useful Snipets and tricks
 
