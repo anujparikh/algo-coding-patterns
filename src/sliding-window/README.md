@@ -15,6 +15,7 @@
 - Permutation in String: [Solution](/src/sliding-window/permutation-string.ts) => [Problem Link](https://leetcode.com/problems/permutation-in-string/)
 - String Anagrams: [Solution](/src/sliding-window/string-anagram.ts) => [Problem Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 - Minimum Window Substring: [Solution](/src/sliding-window/smallest-window-substring.ts) => [Problem Link](https://leetcode.com/problems/minimum-window-substring/)
+- Substring with Concatenation of All Words: [Solution](/src/sliding-window/words-concatenation.ts) => [Problem Link](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) (not fully solved)
 
 ## Blind75 questions
 
