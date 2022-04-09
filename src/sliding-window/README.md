@@ -13,6 +13,7 @@
 - Longest Repeating Character Replacement: [Solution](/src/sliding-window/longest-repeating-substring-replacment.ts) => [Problem Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - Max Consecutive Ones III: [Solution](/src/sliding-window/longest-subarray-after-replacement.ts) => [Problem Link](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - Permutation in String: [Solution](/src/sliding-window/permutation-string.ts) => [Problem Link](https://leetcode.com/problems/permutation-in-string/)
+- String Anagrams: [Solution](/src/sliding-window/string-anagram.ts) => [Problem Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
 ## Blind75 questions
 
@@ -45,4 +46,7 @@
   }
   ```
 
-- when working with pattern matching the window size should be less than pattern length at the end in windowEnd loop
+- when working with pattern matching
+  - use matched variable for comparison
+  - the window size should be less than pattern length at the end in windowEnd loop
+  - when remove variable from windowStart position, first check for `frequencyMap[startChar] === 0` condition for decrementing matched counter
