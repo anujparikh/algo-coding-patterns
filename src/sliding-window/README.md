@@ -11,6 +11,7 @@
 - Fruits into baskets: [Solution](/src/sliding-window/fruit-baskets.ts) => [Problem Link](https://leetcode.com/problems/fruit-into-baskets/)
 - Longest Substring Without Repeating Characters: [Solution](/src/sliding-window/longest-non-repeating-substring.ts) => [Problem Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - Longest Repeating Character Replacement: [Solution](/src/sliding-window/longest-repeating-substring-replacment.ts) => [Problem Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- Max Consecutive Ones III: [Solution](/src/sliding-window/longest-subarray-after-replacement.ts) => [Problem Link](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
 ## Blind75 questions
 
