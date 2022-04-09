@@ -10,10 +10,12 @@
 - Longest Substring with maximum K Distinct Characters: [Solution](/src/sliding-window/longest-substring-with-k-distinct-chars.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/YQQwQMWLx80)
 - Fruits into baskets: [Solution](/src/sliding-window/fruit-baskets.ts) => [Problem Link](https://leetcode.com/problems/fruit-into-baskets/)
 - Longest Substring Without Repeating Characters: [Solution](/src/sliding-window/longest-non-repeating-substring.ts) => [Problem Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- Longest Repeating Character Replacement: [Solution](/src/sliding-window/longest-repeating-substring-replacment.ts) => [Problem Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
 ## Blind75 questions
 
 - Longest Substring Without Repeating Characters: [Solution](/src/sliding-window/longest-non-repeating-substring.ts) => [Problem Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- Longest Repeating Character Replacement: [Solution](/src/sliding-window/longest-repeating-substring-replacment.ts) => [Problem Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
 ## Useful Snipets and tricks
 
@@ -21,3 +23,22 @@
 - when working with strings
   - try to maintain a char map, which would update the occurences of particular alphabets
   - whenever the count of that alphabet is zero, delete the key from map
+- when working with **Repeating character replacement**
+
+  - we have to always get max repeating charater count in the current window
+
+  ```js
+  while (windowEnd < str.length) {
+    let endChar = str[windowEnd];
+    charMap[endChar] = (charMap[endChar] || 0) + 1;
+    maxCharFrequency = Math.max(maxCharFrequency, charMap[endChar]);
+
+    while (windowEnd - windowStart + 1 > maxCharFrequency + k) {
+      const startChar = str[windowStart];
+      charMap[startChar] = charMap[startChar] - 1;
+      windowStart++;
+    }
+    max = Math.max(max, windowEnd - windowStart + 1);
+    windowEnd++;
+  }
+  ```
