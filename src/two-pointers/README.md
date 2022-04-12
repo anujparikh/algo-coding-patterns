@@ -8,7 +8,10 @@
 - Pair with Target Sum: [Solution](/src/two-pointers/target-sum-pair.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/xog6q15W9GP)
 - Remove Duplicates from Sorted Array: [Solution](/src/two-pointers/remove-duplicates.ts) => [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - Squares of a Sorted Array: [Solution](/src/two-pointers/squaring-array.ts) => [Problem Link](https://leetcode.com/problems/squares-of-a-sorted-array/)
+- 3 Sum: [Solution](/src/two-pointers/triplet-to-zero.ts) => [Problem Link](https://leetcode.com/problems/3sum/)
 
 ## Blind75 questions
+
+- 3 Sum: [Solution](/src/two-pointers/triplet-to-zero.ts) => [Problem Link](https://leetcode.com/problems/3sum/)
 
 ## Useful Snipets and tricks
