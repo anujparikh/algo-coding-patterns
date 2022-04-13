@@ -10,6 +10,7 @@
 - Squares of a Sorted Array: [Solution](/src/two-pointers/squaring-array.ts) => [Problem Link](https://leetcode.com/problems/squares-of-a-sorted-array/)
 - 3 Sum: [Solution](/src/two-pointers/triplet-to-zero.ts) => [Problem Link](https://leetcode.com/problems/3sum/)
 - 3 Sum Closest: [Solution](/src/two-pointers/triplet-closest-to-target.ts) => [Problem Link](https://leetcode.com/problems/3sum-closest/)
+- Triplets with Smaller Sum: [Solution](/src/two-pointers/count-triplet-smaller-to-target.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/mElknO5OKBO)
 
 ## Blind75 questions
 
