@@ -11,6 +11,7 @@
 - 3 Sum: [Solution](/src/two-pointers/triplet-to-zero.ts) => [Problem Link](https://leetcode.com/problems/3sum/)
 - 3 Sum Closest: [Solution](/src/two-pointers/triplet-closest-to-target.ts) => [Problem Link](https://leetcode.com/problems/3sum-closest/)
 - Triplets with Smaller Sum: [Solution](/src/two-pointers/count-triplet-smaller-to-target.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/mElknO5OKBO)
+- Subarrays with Product Less than a Target: [Solution](/src/two-pointers/subarr-with-product-less-target.ts) => [Problem Link](https://leetcode.com/problems/subarray-product-less-than-k/)
 
 ## Blind75 questions
 
