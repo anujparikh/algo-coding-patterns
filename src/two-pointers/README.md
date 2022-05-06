@@ -12,6 +12,7 @@
 - 3 Sum Closest: [Solution](/src/two-pointers/triplet-closest-to-target.ts) => [Problem Link](https://leetcode.com/problems/3sum-closest/)
 - Triplets with Smaller Sum: [Solution](/src/two-pointers/count-triplet-smaller-to-target.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/mElknO5OKBO)
 - Subarrays with Product Less than a Target: [Solution](/src/two-pointers/subarr-with-product-less-target.ts) => [Problem Link](https://leetcode.com/problems/subarray-product-less-than-k/)
+- Dutch National Flag Problem: [Solution](/src/two-pointers/dutch-flag-problem.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/RMBxV6jz6Q0)
 
 ## Blind75 questions
 
