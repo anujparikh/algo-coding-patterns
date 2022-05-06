@@ -13,6 +13,7 @@
 - Triplets with Smaller Sum: [Solution](/src/two-pointers/count-triplet-smaller-to-target.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/mElknO5OKBO)
 - Subarrays with Product Less than a Target: [Solution](/src/two-pointers/subarr-with-product-less-target.ts) => [Problem Link](https://leetcode.com/problems/subarray-product-less-than-k/)
 - Dutch National Flag Problem: [Solution](/src/two-pointers/dutch-flag-problem.ts) => [Problem Link](https://leetcode.com/problems/sort-colors/)
+- 4 Sum: [Solution](/src/two-pointers/search-quadruplets.ts) => [Problem Link](https://leetcode.com/problems/4sum/)
 
 ## Blind75 questions
 
