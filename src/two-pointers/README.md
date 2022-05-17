@@ -15,6 +15,7 @@
 - Dutch National Flag Problem: [Solution](/src/two-pointers/dutch-flag-problem.ts) => [Problem Link](https://leetcode.com/problems/sort-colors/)
 - 4 Sum: [Solution](/src/two-pointers/search-quadruplets.ts) => [Problem Link](https://leetcode.com/problems/4sum/)
 - Backspace String Compare: [Solution](/src/two-pointers/backspace-string-compare.ts) => [Problem Link](https://leetcode.com/problems/backspace-string-compare/)
+- Shortest Unsorted Continuous Subarray: [Solution](/src/two-pointers/shortest-unsorted-continuous-subarray.ts) => [Problem Link](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 
 ## Blind75 questions
 
@@ -27,3 +28,8 @@
   - while loop within the parent for with left and right pointers
   - left should be i + 1 and right should be length - 1
   - compare to the target within while loop
+- whenever dealing with shortest unsorted continious array
+  - first find the lowest starting index which is out of order
+  - next find the highest index which is out of order
+  - find min and max from the subarray
+  - compare both min and max on left and right side of subarray respectively
