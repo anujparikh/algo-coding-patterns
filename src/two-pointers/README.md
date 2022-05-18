@@ -20,6 +20,7 @@
 ## Blind75 questions
 
 - 3 Sum: [Solution](/src/two-pointers/triplet-to-zero.ts) => [Problem Link](https://leetcode.com/problems/3sum/)
+- Valid Palindrome: [Solution](/src/two-pointers/valid-palindrome.ts) => [Problem Link](https://leetcode.com/problems/valid-palindrome/)
 
 ## Useful Snipets and tricks
 
