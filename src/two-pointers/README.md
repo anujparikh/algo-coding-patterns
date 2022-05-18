@@ -21,6 +21,7 @@
 
 - 3 Sum: [Solution](/src/two-pointers/triplet-to-zero.ts) => [Problem Link](https://leetcode.com/problems/3sum/)
 - Valid Palindrome: [Solution](/src/two-pointers/valid-palindrome.ts) => [Problem Link](https://leetcode.com/problems/valid-palindrome/)
+- Two Sum II: [Solution](/src/two-pointers/two-sum-II.ts) => [Problem Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 ## Useful Snipets and tricks
 
