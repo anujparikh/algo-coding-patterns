@@ -23,6 +23,7 @@
 - Valid Palindrome: [Solution](/src/two-pointers/valid-palindrome.ts) => [Problem Link](https://leetcode.com/problems/valid-palindrome/)
 - Two Sum II: [Solution](/src/two-pointers/two-sum-II.ts) => [Problem Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - Container With Most Water: [Solution](/src/two-pointers/max-area.ts) => [Problem Link](https://leetcode.com/problems/container-with-most-water/)
+- Trapping Rain Water: [Solution](/src/two-pointers/trapping-rain-water.ts) => [Problem Link](https://leetcode.com/problems/trapping-rain-water/)
 
 ## Useful Snipets and tricks
 
@@ -36,3 +37,6 @@
   - next find the highest index which is out of order
   - find min and max from the subarray
   - compare both min and max on left and right side of subarray respectively
+- for trapping rain water
+  - keep track of max of left pointer and max of right pointer
+  - whichever is the minimum, subract the height of that current (left or right) from max and add it the output and move the pointer
