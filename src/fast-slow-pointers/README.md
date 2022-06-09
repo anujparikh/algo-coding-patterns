@@ -12,6 +12,7 @@
 - Happy Number: [Solution](/src/fast-slow-pointers/happy-number.ts) => [Problem Link](https://leetcode.com/problems/happy-number/)
 - Middle of Linkedlist: [Solution](/src/fast-slow-pointers/linkedlist-midpoint.ts) => [Problem Link](https://leetcode.com/problems/middle-of-the-linked-list/)
 - Is Linkedlist palindrome: [Solution](/src/fast-slow-pointers/linkedlist-palindrome.ts) => [Problem Link](https://leetcode.com/problems/palindrome-linked-list/)
+- Reorder linkedlist: [Solution](/src/fast-slow-pointers/rearrange-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/reorder-list/)
 
 ## Useful Snipets and tricks
 

@@ -6,4 +6,11 @@ export class SinglyLLNode {
     this.value = value;
     this.next = next;
   }
+
+  static print(head: SinglyLLNode): void {
+    while (head !== null) {
+      console.log(head.value);
+      head = head.next;
+    }
+  }
 }
