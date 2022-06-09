@@ -11,6 +11,7 @@
 - Start of cycle in singly linkedlist: [Solution](/src/fast-slow-pointers/start-of-cycle-ll.ts) => [Problem Link](https://leetcode.com/problems/linked-list-cycle-ii/)
 - Happy Number: [Solution](/src/fast-slow-pointers/happy-number.ts) => [Problem Link](https://leetcode.com/problems/happy-number/)
 - Middle of Linkedlist: [Solution](/src/fast-slow-pointers/linkedlist-midpoint.ts) => [Problem Link](https://leetcode.com/problems/middle-of-the-linked-list/)
+- Is Linkedlist palindrome: [Solution](/src/fast-slow-pointers/linkedlist-palindrome.ts) => [Problem Link](https://leetcode.com/problems/palindrome-linked-list/)
 
 ## Useful Snipets and tricks
 

@@ -1,6 +1,6 @@
 import { SinglyLLNode } from "../utils/Node";
 
-const linkedlistMidpoint = (head: SinglyLLNode): SinglyLLNode => {
+export const linkedlistMidpoint = (head: SinglyLLNode): SinglyLLNode => {
   if (head === null) return null;
   if (head.next === null) return head;
   let slow = head;
