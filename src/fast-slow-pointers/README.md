@@ -13,6 +13,7 @@
 - Middle of Linkedlist: [Solution](/src/fast-slow-pointers/linkedlist-midpoint.ts) => [Problem Link](https://leetcode.com/problems/middle-of-the-linked-list/)
 - Is Linkedlist palindrome: [Solution](/src/fast-slow-pointers/linkedlist-palindrome.ts) => [Problem Link](https://leetcode.com/problems/palindrome-linked-list/)
 - Reorder linkedlist: [Solution](/src/fast-slow-pointers/rearrange-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/reorder-list/)
+- Circular Array Loop: [Solution](/src/fast-slow-pointers/is-circular-array.ts) => [Problem Link](https://leetcode.com/problems/circular-array-loop/)
 
 ## Useful Snipets and tricks
 
