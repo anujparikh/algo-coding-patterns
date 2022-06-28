@@ -7,7 +7,7 @@ export class SinglyLLNode {
     this.next = next;
   }
 
-  static print(head: SinglyLLNode): void {
+  static print(head: SinglyLLNode | null): void {
     while (head !== null) {
       console.log(head.value);
       head = head.next;
