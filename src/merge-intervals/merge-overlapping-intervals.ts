@@ -1,6 +1,6 @@
 import { Interval } from "../utils/Interval";
 
-const mergeOverlappingIntervals = (intervals: Array<Interval>): Array<Interval> => {
+export const mergeOverlappingIntervals = (intervals: Array<Interval>): Array<Interval> => {
     intervals.sort((a, b) => a.start - b.start);
     const mergedIntervals: Array<Interval> = [intervals[0]];
 
