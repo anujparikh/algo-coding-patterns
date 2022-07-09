@@ -6,6 +6,7 @@
 - Merge intervals for overlapping intervals: [Solution](/src/merge-intervals/merge-overlapping-intervals.ts) => [Problem Link](https://leetcode.com/problems/merge-intervals/)
 - Insert intervals within sorted intervals: [Solution](/src/merge-intervals/insert-interval.ts) => [Problem Link](https://leetcode.com/problems/insert-interval/)
 - Interval List Intersections: [Solution](/src/merge-intervals/intervals-intersection.ts) => [Problem Link](https://leetcode.com/problems/interval-list-intersections/)
+- Conflicting appointments: [Solution](/src/merge-intervals/conflicting-appointments.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/qVV79nGVgAG)
 
 ## Blind75 questions
 - Merge intervals for overlapping intervals: [Solution](/src/merge-intervals/merge-overlapping-intervals.ts) => [Problem Link](https://leetcode.com/problems/merge-intervals/)

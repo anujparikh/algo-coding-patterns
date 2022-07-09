@@ -13,7 +13,7 @@ const insertInterval = (intervals: Array<Interval>, newInterval: Interval): Arra
         const previousInterval = output[output.length - 1];
         const currentInterval = intervals[i];
         if (previousInterval.end >= currentInterval.start) {
-        output[output.length - 1].start = Math.min(output[output.length - 1].start, currentInterval.start);
+            output[output.length - 1].start = Math.min(output[output.length - 1].start, currentInterval.start);
             output[output.length - 1].end = Math.max(output[output.length - 1].end, currentInterval.end);
         } else {
             output.push(currentInterval);
