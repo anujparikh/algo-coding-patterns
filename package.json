@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/anujparikh/algo-coding-patterns/issues"
   },
-  "homepage": "https://github.com/anujparikh/algo-coding-patterns#readme"
+  "homepage": "https://github.com/anujparikh/algo-coding-patterns#readme",
+  "dependencies": {
+    "collections": "^5.1.13"
+  }
 }
