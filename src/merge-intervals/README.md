@@ -9,6 +9,7 @@
 - Conflicting appointments: [Solution](/src/merge-intervals/conflicting-appointments.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/qVV79nGVgAG)
 - Minimum Meeting rooms: [Solution](/src/merge-intervals/minimum-meeting-rooms.ts) => [Problem Link](https://leetcode.com/problems/meeting-rooms-ii/)
 - Maximum CPU load: [Solution](/src/merge-intervals/max-cpu-load.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/xVlyyv3rR93)
+- Employee Free Times: [Solution](/src/merge-intervals/employee-free-time.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0)
 
 ## Blind75 questions
 - Merge intervals for overlapping intervals: [Solution](/src/merge-intervals/merge-overlapping-intervals.ts) => [Problem Link](https://leetcode.com/problems/merge-intervals/)
