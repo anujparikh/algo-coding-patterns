@@ -23,23 +23,50 @@ type EmployeeSchedule = {
     currentInterval: number
 }
 
-const commonFreeTimeUsingMinHeap = (schedules: Array<Array<Interval>>): Array<Interval> => {
-    const commonIntervals: Array<Interval> = [];
-    const minHeap = new Heap([], null, (a: EmployeeSchedule, b: EmployeeSchedule) => b.interval.start - a.interval.start)
-    for (let i = 0; i < schedules.length; i++) {
-        minHeap.push({ interval: schedules[i][0], employeeNumber: i, currentInterval: 0 })
+class EmployeeInterval {
+    interval: Interval;
+    employeeIndex: number;
+    intervalIndex: number;
+
+    constructor(interval, employeeIndex, intervalIndex) {
+        this.interval = interval; // interval representing employee's working hours
+        // index of the list containing working hours of this employee
+        this.employeeIndex = employeeIndex;
+        this.intervalIndex = intervalIndex; // index of the interval in the employee list
     }
-    while (minHeap.length !== 0) {
-        let previous = minHeap.pop();
-        let current = minHeap.peek() && minHeap.pop();
-        if (previous.interval.end >= current.interval.start) {
-            previous = current;
-            minHeap.push(current);
-        } else {
-            commonIntervals.push(new Interval(previous.interval.end, current.interval.start));
-            previous.currentInterval + 1 < schedules[previous.employeeNumber].length && minHeap.push({ interval: schedules[previous.employeeNumber][previous.currentInterval + 1], employeeNumber: previous.employeeNumber, currentInterval: previous.currentInterval + 1 });
-            current.currentInterval + 1 < schedules[current.employeeNumber].length && minHeap.push({ interval: schedules[current.employeeNumber][current.currentInterval + 1], employeeNumber: current.employeeNumber, currentInterval: current.currentInterval + 1 });
+}
+
+const commonFreeTimeUsingMinHeap = (schedules: Array<Array<Interval>>): Array<Interval> => {
+    let n = schedules.length;
+    const result: Array<Interval> = [];
+    if (schedules === null || n === 0) {
+        return result;
+    }
+    const minHeap = new Heap([], null, ((a: EmployeeInterval, b: EmployeeInterval) => b.interval.start - a.interval.start));
+    // insert the first interval of each employee to the queue
+    for (let i = 0; i < n; i++) {
+        minHeap.push(new EmployeeInterval(schedules[i][0], i, 0));
+    }
+    let previousInterval = minHeap.peek().interval;
+    while (minHeap.length > 0) {
+        const queueTop = minHeap.pop();
+        // if previousInterval is not overlapping with the next interval, insert a free interval
+        if (previousInterval.end < queueTop.interval.start) {
+            result.push(new Interval(previousInterval.end, queueTop.interval.start));
+            previousInterval = queueTop.interval;
+        } else { // overlapping intervals, update the previousInterval if needed
+            if (previousInterval.end < queueTop.interval.end) {
+                previousInterval = queueTop.interval;
+            }
+        }
+        // if there are more intervals available for(the same employee, add their next interval
+        const employeeSchedule = schedules[queueTop.employeeIndex];
+        if (employeeSchedule.length > queueTop.intervalIndex + 1) {
+            minHeap.push(new EmployeeInterval(
+                employeeSchedule[queueTop.intervalIndex + 1], queueTop.employeeIndex,
+                queueTop.intervalIndex + 1,
+            ));
         }
     }
-    return commonIntervals;
+    return result;
 }
