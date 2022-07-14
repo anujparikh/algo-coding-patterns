@@ -19,6 +19,7 @@ function eraseOverlapIntervals(intervals: number[][]): number {
             previousPointer = currentPointer;
         } else {
             result++;
+            previousPointer = previous[1] < current[1] ? previousPointer : currentPointer;
         }
         currentPointer++;
     }

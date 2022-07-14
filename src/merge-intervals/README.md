@@ -15,9 +15,12 @@
 - Merge intervals for overlapping intervals: [Solution](/src/merge-intervals/merge-overlapping-intervals.ts) => [Problem Link](https://leetcode.com/problems/merge-intervals/)
 - Insert intervals within sorted intervals: [Solution](/src/merge-intervals/insert-interval.ts) => [Problem Link](https://leetcode.com/problems/insert-interval/)
 - Minimum Meeting rooms: [Solution](/src/merge-intervals/minimum-meeting-rooms.ts) => [Problem Link](https://leetcode.com/problems/meeting-rooms-ii/)
+- Non-overlapping Intervals: [Solution](/src/merge-intervals/non-overlapping-intervals.ts) => [Problem Link](https://leetcode.com/problems/non-overlapping-intervals/)
 
 ## Useful Snipets and tricks
 - while inserting an interval in sorted intervals list,
     - first skip all the intervals whose end time is less than new interval start time
     - merge the new interval within the result
     - perform merge intervals for rest of the intervals including the new interval which was added
+- Non overlapping intervals
+    - make sure after incrementing the result (removal counter) the previous counter should be set to minimum ends of previous or current.
