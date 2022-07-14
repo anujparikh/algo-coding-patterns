@@ -16,6 +16,7 @@
 - Insert intervals within sorted intervals: [Solution](/src/merge-intervals/insert-interval.ts) => [Problem Link](https://leetcode.com/problems/insert-interval/)
 - Minimum Meeting rooms: [Solution](/src/merge-intervals/minimum-meeting-rooms.ts) => [Problem Link](https://leetcode.com/problems/meeting-rooms-ii/)
 - Non-overlapping Intervals: [Solution](/src/merge-intervals/non-overlapping-intervals.ts) => [Problem Link](https://leetcode.com/problems/non-overlapping-intervals/)
+- Meeting room: [Solution](/src/merge-intervals/meeting-rooms.ts) => [Problem Link](https://www.lintcode.com/problem/920/)
 
 ## Useful Snipets and tricks
 - while inserting an interval in sorted intervals list,
