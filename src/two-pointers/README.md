@@ -24,6 +24,7 @@
 - Two Sum II: [Solution](/src/two-pointers/two-sum-II.ts) => [Problem Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - Container With Most Water: [Solution](/src/two-pointers/max-area.ts) => [Problem Link](https://leetcode.com/problems/container-with-most-water/)
 - Trapping Rain Water: [Solution](/src/two-pointers/trapping-rain-water.ts) => [Problem Link](https://leetcode.com/problems/trapping-rain-water/)
+- Two sum: [Solution](/src/two-pointers/two-sum.ts) => [Problem Link](https://leetcode.com/problems/two-sum/)
 
 ## Useful Snipets and tricks
 
