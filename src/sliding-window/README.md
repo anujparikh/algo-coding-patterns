@@ -23,6 +23,7 @@
 - Best Time to Buy and Sell Stock: [Solution](/src/sliding-window/max-profit.ts) => [Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - Longest Substring Without Repeating Characters: [Solution](/src/sliding-window/longest-non-repeating-substring.ts) => [Problem Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - Longest Repeating Character Replacement: [Solution](/src/sliding-window/longest-repeating-substring-replacment.ts) => [Problem Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- Permutation in String: [Solution](/src/sliding-window/permutation-string.ts) => [Problem Link](https://leetcode.com/problems/permutation-in-string/)
 - Minimum Window Substring: [Solution](/src/sliding-window/smallest-window-substring.ts) => [Problem Link](https://leetcode.com/problems/minimum-window-substring/)
 
 ## Useful Snipets and tricks
