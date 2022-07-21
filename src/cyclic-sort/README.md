@@ -4,7 +4,7 @@
 
 ## Examples
 
-- Cyclic Sort: [Solution](/src/fast-slow-pointers/singly-ll-has-cycle.ts) => [Problem Link](https://leetcode.com/problems/linked-list-cycle/)
+- Cyclic Sort: [Solution](/src/cyclic-sort/cyclic-sort.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/B8qXVqVwDKY)
 
 ## Blind75 questions
 
