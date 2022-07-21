@@ -13,3 +13,9 @@ const findMissingNumber = (nums: Array<number>): number => {
     }
     return -1;
 }
+
+const findMissingNumberMath = (nums: Array<number>): number => {
+    const totalIdealSum = (nums.length * (nums.length + 1)) / 2;
+    const currentTotalSum = nums.reduce((a, b) => a + b, 0);
+    return totalIdealSum - currentTotalSum;
+}
