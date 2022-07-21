@@ -5,6 +5,7 @@
 ## Examples
 
 - Cyclic Sort: [Solution](/src/cyclic-sort/cyclic-sort.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/B8qXVqVwDKY)
+- Find missing number: [Solution](/src/cyclic-sort/find-missing-number.ts) => [Problem Link](https://leetcode.com/problems/missing-number/)
 
 ## Blind75 questions
 
