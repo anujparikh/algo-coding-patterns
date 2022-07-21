@@ -6,3 +6,4 @@
 - [Two Pointers Pattern](./src/two-pointers/)
 - [Fast Slow Pointers](./src/fast-slow-pointers/)
 - [Merge Intervals](./src/merge-intervals/)
+- [Cyclic Sort](./src/cyclic-sort/)
