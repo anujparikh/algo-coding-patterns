@@ -9,6 +9,7 @@
 - Find all missing number: [Solution](/src/cyclic-sort/find-all-missing-numbers.ts) => [Problem Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 - Find duplicate: [Solution](/src/cyclic-sort/find-duplicate.ts) => [Problem Link](https://leetcode.com/problems/find-the-duplicate-number/)
 - Find all duplicates: [Solution](/src/cyclic-sort/find-all-duplicates.ts) => [Problem Link](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+- Find corrupt pair: [Solution](/src/cyclic-sort/find-corrupt-pair.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/mE2LVDE3wp0)
 
 ## Blind75 questions
 
