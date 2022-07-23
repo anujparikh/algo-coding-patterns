@@ -8,6 +8,7 @@
 - Find missing number: [Solution](/src/cyclic-sort/find-missing-number.ts) => [Problem Link](https://leetcode.com/problems/missing-number/)
 - Find all missing number: [Solution](/src/cyclic-sort/find-all-missing-numbers.ts) => [Problem Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 - Find duplicate: [Solution](/src/cyclic-sort/find-duplicate.ts) => [Problem Link](https://leetcode.com/problems/find-the-duplicate-number/)
+- Find all duplicates: [Solution](/src/cyclic-sort/find-all-duplicates.ts) => [Problem Link](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
 ## Blind75 questions
 
