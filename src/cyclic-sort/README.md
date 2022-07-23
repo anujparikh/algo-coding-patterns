@@ -7,6 +7,7 @@
 - Cyclic Sort: [Solution](/src/cyclic-sort/cyclic-sort.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/B8qXVqVwDKY)
 - Find missing number: [Solution](/src/cyclic-sort/find-missing-number.ts) => [Problem Link](https://leetcode.com/problems/missing-number/)
 - Find all missing number: [Solution](/src/cyclic-sort/find-all-missing-numbers.ts) => [Problem Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+- Find duplicate: [Solution](/src/cyclic-sort/find-duplicate.ts) => [Problem Link](https://leetcode.com/problems/find-the-duplicate-number/)
 
 ## Blind75 questions
 
