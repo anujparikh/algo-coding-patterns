@@ -2,9 +2,10 @@
 
 ## Examples
 
-- Reverse a LinkedList: [Solution](/src/in-place-reversal/reverse-a-linkedlist.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/B8qXVqVwDKY)
+- Reverse a LinkedList: [Solution](/src/in-place-reversal/reverse-a-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/reverse-linked-list/)
 
 ## Blind75 questions
 
+- Reverse a LinkedList: [Solution](/src/in-place-reversal/reverse-a-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/reverse-linked-list/)
 
 ## Useful Snipets and tricks
