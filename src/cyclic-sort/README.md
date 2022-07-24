@@ -18,3 +18,4 @@
 
 ## Useful Snipets and tricks
 
+- For cyclic sort, if the range of number is not given within 1 to n, where is length of array, always check for `nums[i] > 0 && nums[i] <= nums.length && nums[i] !== nums[j]` to swap the position
