@@ -7,3 +7,4 @@
 - [Fast Slow Pointers](./src/fast-slow-pointers/)
 - [Merge Intervals](./src/merge-intervals/)
 - [Cyclic Sort](./src/cyclic-sort/)
+- [In-place Reversal of LinkedList](./src/in-place-reversal/)
