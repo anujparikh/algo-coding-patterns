@@ -8,6 +8,7 @@
 
 - Reverse a LinkedList: [Solution](/src/in-place-reversal/reverse-a-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/reverse-linked-list/)
 - Reverse a Sub-LinkedList: [Solution](/src/in-place-reversal/reverse-sub-linkedlist.ts) => [Problem Link](https://leetcode.com/problems/reverse-linked-list-ii/)
+- Reverse k sized sub linkedlist: [Solution](/src/in-place-reversal/reverse-k-sized-sub-list.ts) => [Problem Link](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 ## Useful Snipets and tricks
 

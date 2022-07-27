@@ -1,6 +1,22 @@
 // @ts-nocheck
 import { SinglyLLNode } from "../utils/Node";
 
+const reverseKSizedSubLinkedList = (head: SinglyLLNode | null, k: number) => {
+    let current = head;
+    let length = 0;
+    while (current !== null) {
+        current = current.next;
+        length++;
+    }
+    let counter = Math.ceil(length / k);
+    let times = 0;
+    while (times < counter) {
+        head = reverseSubLinkedList(head, (times * k) + 1, ((times + 1) * k));
+        times++;
+    }
+    return head;
+}
+
 const reverseSubLinkedList = (head: SinglyLLNode | null, p: number, q: number): SinglyLLNode | null => {
     let current = head;
     let previous = null;
