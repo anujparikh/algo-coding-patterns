@@ -14,6 +14,11 @@
 
 - For reversing sub linkedlist
     - move the counter till start - 1
-    - start reversing the linkedlist after that based on counter with all new `reverse*` values
-    - once while loop is done, `previous.next = reversePrevious` and `current.next =  reverseCurrent`
+    - store the value for last node of first part and last node of sub list which would be current
+    ```
+        let lastNodeOfFirstPart = previous;
+        let lastNodeOfSubList = current;
+    ```
+    - reset the counter start reversing the linkedlist after that based on `counter < q - p + 1`
+    - once while loop is done assign `lastNodeOfFirstPart.next` as `previous` and `lastNodeOfSubList.next` as `current`
     - return head itself
