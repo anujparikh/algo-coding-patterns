@@ -21,3 +21,20 @@ const levelOrderTraversal = (root: TreeNode | null): Array<Array<number>> => {
 
     return result;
 }
+
+const levelOrderTraversalRecurrsive = (root: TreeNode | null): Array<Array<number>> => {
+    const traverse = (root: TreeNode | null, level: number) => {
+        if (root === null) return;
+        if (level >= result.length) {
+            result[level] = [];
+        }
+        result[level].push(root.val);
+        root.left && traverse(root.left, level + 1);
+        root.right && traverse(root.right, level + 1);
+    }
+
+    if (root === null) return [];
+    const result: Array<Array<number>> = [];
+    traverse(root, 0);
+    return result;
+}
