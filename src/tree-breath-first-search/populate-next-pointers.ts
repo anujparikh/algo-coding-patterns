@@ -1,19 +1,8 @@
-class TreeNode {
-    val: number
-    left: TreeNode | null
-    right: TreeNode | null
-    next: TreeNode | null
-    constructor(val?: number, left?: TreeNode, right?: TreeNode, next?: TreeNode) {
-        this.val = (val === undefined ? 0 : val)
-        this.left = (left === undefined ? null : left)
-        this.right = (right === undefined ? null : right)
-        this.next = (next === undefined ? null : next)
-    }
-}
+import { TreeNodeWithNext } from "../utils/TreeNode"
 
-const populateNextPointer = (root: TreeNode | null): TreeNode | null => {
+const populateNextPointer = (root: TreeNodeWithNext | null): TreeNodeWithNext | null => {
     if (root === null) return root;
-    let queue: Array<TreeNode> = [];
+    let queue: Array<TreeNodeWithNext> = [];
     queue.push(root);
     while (queue.length !== 0) {
         let size = queue.length;
