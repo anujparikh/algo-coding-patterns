@@ -12,3 +12,7 @@
 - Level order successor: [Solution](/src/tree-breath-first-search/level-order-successor.ts) => [Problem Link](https://www.geeksforgeeks.org/level-order-successor-of-a-node-in-binary-tree/)
 - Populating Next Right Pointers in Each Node: [Solution](/src/tree-breath-first-search/populate-next-pointers.ts) => [Problem Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - Connect all siblings in binary tree: [Solution](/src/tree-breath-first-search/connect-all-siblings.ts) => [Problem Link](https://www.educative.io/courses/grokking-the-coding-interview/NE5109Jl02v)
+- Binary Tree Right Side View: [Solution](/src/tree-breath-first-search/right-view-binary-tree.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-right-side-view/)
+
+## Blind75 questions
+- Binary Tree Right Side View: [Solution](/src/tree-breath-first-search/right-view-binary-tree.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-right-side-view/)
