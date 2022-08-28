@@ -1,7 +1,7 @@
 import { TreeNode } from "../utils/TreeNode";
 import Deque from 'collections/deque'; //http://www.collectionsjs.com
 
-const levelOrderTraversal = (root: TreeNode) => {
+const reverseLevelOrderTraversal = (root: TreeNode) => {
     if (root === null) return [];
     const order: Array<Array<number>> = [];
     const queue = new Deque();
@@ -17,8 +17,7 @@ const levelOrderTraversal = (root: TreeNode) => {
                 currentNode.right && queue.push(currentNode.right);
             }
         }
-        order.push(currentLevelOrder);
+        order.unshift(currentLevelOrder);
     }
     return order;
 }
-
