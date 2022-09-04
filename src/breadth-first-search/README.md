@@ -9,6 +9,7 @@
 
 - Level Order Traversal : [Solution](/src/breadth-first-search/level-order-traversal.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - Reverse Level Order Traversal : [Solution](/src/breadth-first-search/reverse-level-order-traversal.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+- Zigzag Level Order Traversal : [Solution](/src/breadth-first-search/zigzag-level-order-traversal.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
 ## Blind75 questions
 - Level Order Traversal : [Solution](/src/breadth-first-search/level-order-traversal.ts) => [Problem Link](https://leetcode.com/problems/binary-tree-level-order-traversal/)
